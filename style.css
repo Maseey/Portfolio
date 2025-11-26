@@ -1,0 +1,31 @@
+body {
+margin: 0;
+font-family: "Poppins", sans-serif;
+background: #0d0d0d;
+color: #fff;
+}
+.navbar {
+display: flex;
+justify-content: space-between;
+padding: 20px 40px;
+background: #111;
+position: sticky;
+top: 0;
+}
+.navbar ul { display: flex; gap: 20px; }
+.navbar a { color: #aaa; text-decoration: none; font-size: 18px; transition: .3s; }
+.navbar a:hover, .navbar .active { color: #fff; }
+.hero { text-align: center; padding: 80px 20px; }
+.profile-img { width: 180px; height: 180px; border-radius: 50%; margin-bottom: 20px; border: 4px solid #444; }
+.accent { color: #00c8ff; }
+.btn { padding: 12px 25px; background: #00c8ff; color: #000; text-decoration: none; border-radius: 8px; display: inline-block; margin-top: 20px; transition: .3s; }
+.btn:hover { background: #fff; }
+.fade-in { animation: fade 1.2s ease-in-out; }
+@keyframes fade { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+.projects-section { padding: 50px; }
+.project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 25px; }
+.project-card { background: #1a1a1a; border-radius: 10px; overflow: hidden; padding-bottom: 20px; transition: .3s; }
+.project-card img { width: 100%; }
+.project-card:hover { transform: translateY(-10px); }
+.contact-form { width: 300px; margin: auto; display: flex; flex-direction: column; gap: 15px; }
+.contact-form input, .contact-form textarea { padding: 10px; border-radius: 6px; border: none; }
