@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 <header>
-    <nav>
+    <nav class="navbar">
         <h2 class="logo">My Portfolio</h2>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
         </ul>
-        <a href="assets/CV.pdf" download class="btn">Download CV</a>
     </nav>
 </header>
 
-<section class="contact fade-in">
-    <h2>Contact Me</h2>
-    <form>
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
+<section class="contact-section fade-in">
+    <h1>Contact Me</h1>
+
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
         <textarea placeholder="Your Message" required></textarea>
-        <button class="btn" type="submit">Send Message</button>
+        <button class="btn">Send Message</button>
     </form>
 </section>
+
 </body>
 </html>
