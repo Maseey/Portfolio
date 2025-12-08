@@ -1,1 +1,477 @@
-body {background:#0d0d0d;color:white;} /* simplified for ZIP */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial; }
+animation: fade 1.2s ease-in-out forwards;
+}
+
+
+@keyframes fade {
+from { opacity: 0; transform: translateY(40px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+
+.projects-section {
+padding: 60px;
+}
+
+
+.project-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 30px;
+}
+
+
+.project-card {
+background: rgba(255, 255, 255, 0.05);
+border-radius: 12px;
+overflow: hidden;
+padding-bottom: 20px;
+transition: .3s;
+border: 1px solid rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(6px);
+}
+
+
+.project-card img {
+width: 100%;
+}
+
+
+.project-card:hover {
+transform: translateY(-10px) scale(1.02);
+box-shadow: 0 0 15px rgba(0, 216, 255, 0.4);
+}
+
+
+.contact-form {
+width: 320px;
+margin: auto;
+display: flex;
+flex-direction: column;
+gap: 18px;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+padding: 12px;
+border-radius: 8px;
+border: none;
+background: rgba(255, 255, 255, 0.1);
+color: white;
+backdrop-filter: blur(4px);
+}
+
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+outline: 2px solid #00eaff;
+}* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial; }
+animation: fade 1.2s ease-in-out forwards;
+}
+
+
+@keyframes fade {
+from { opacity: 0; transform: translateY(40px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+
+.projects-section {
+padding: 60px;
+}
+
+
+.project-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 30px;
+}
+
+
+.project-card {
+background: rgba(255, 255, 255, 0.05);
+border-radius: 12px;
+overflow: hidden;
+padding-bottom: 20px;
+transition: .3s;
+border: 1px solid rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(6px);
+}
+
+
+.project-card img {
+width: 100%;
+}
+
+
+.project-card:hover {
+transform: translateY(-10px) scale(1.02);
+box-shadow: 0 0 15px rgba(0, 216, 255, 0.4);
+}
+
+
+.contact-form {
+width: 320px;
+margin: auto;
+display: flex;
+flex-direction: column;
+gap: 18px;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+padding: 12px;
+border-radius: 8px;
+border: none;
+background: rgba(255, 255, 255, 0.1);
+color: white;
+backdrop-filter: blur(4px);
+}
+
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+outline: 2px solid #00eaff;
+}* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial; }
+animation: fade 1.2s ease-in-out forwards;
+}
+
+
+@keyframes fade {
+from { opacity: 0; transform: translateY(40px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+
+.projects-section {
+padding: 60px;
+}
+
+
+.project-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 30px;
+}
+
+
+.project-card {
+background: rgba(255, 255, 255, 0.05);
+border-radius: 12px;
+overflow: hidden;
+padding-bottom: 20px;
+transition: .3s;
+border: 1px solid rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(6px);
+}
+
+
+.project-card img {
+width: 100%;
+}
+
+
+.project-card:hover {
+transform: translateY(-10px) scale(1.02);
+box-shadow: 0 0 15px rgba(0, 216, 255, 0.4);
+}
+
+
+.contact-form {
+width: 320px;
+margin: auto;
+display: flex;
+flex-direction: column;
+gap: 18px;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+padding: 12px;
+border-radius: 8px;
+border: none;
+background: rgba(255, 255, 255, 0.1);
+color: white;
+backdrop-filter: blur(4px);
+}
+
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+outline: 2px solid #00eaff;
+}* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial; }
+animation: fade 1.2s ease-in-out forwards;
+}
+
+
+@keyframes fade {
+from { opacity: 0; transform: translateY(40px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+
+.projects-section {
+padding: 60px;
+}
+
+
+.project-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 30px;
+}
+
+
+.project-card {
+background: rgba(255, 255, 255, 0.05);
+border-radius: 12px;
+overflow: hidden;
+padding-bottom: 20px;
+transition: .3s;
+border: 1px solid rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(6px);
+}
+
+
+.project-card img {
+width: 100%;
+}
+
+
+.project-card:hover {
+transform: translateY(-10px) scale(1.02);
+box-shadow: 0 0 15px rgba(0, 216, 255, 0.4);
+}
+
+
+.contact-form {
+width: 320px;
+margin: auto;
+display: flex;
+flex-direction: column;
+gap: 18px;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+padding: 12px;
+border-radius: 8px;
+border: none;
+background: rgba(255, 255, 255, 0.1);
+color: white;
+backdrop-filter: blur(4px);
+}
+
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+outline: 2px solid #00eaff;
+}* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial; }
+animation: fade 1.2s ease-in-out forwards;
+}
+
+
+@keyframes fade {
+from { opacity: 0; transform: translateY(40px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+
+.projects-section {
+padding: 60px;
+}
+
+
+.project-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 30px;
+}
+
+
+.project-card {
+background: rgba(255, 255, 255, 0.05);
+border-radius: 12px;
+overflow: hidden;
+padding-bottom: 20px;
+transition: .3s;
+border: 1px solid rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(6px);
+}
+
+
+.project-card img {
+width: 100%;
+}
+
+
+.project-card:hover {
+transform: translateY(-10px) scale(1.02);
+box-shadow: 0 0 15px rgba(0, 216, 255, 0.4);
+}
+
+
+.contact-form {
+width: 320px;
+margin: auto;
+display: flex;
+flex-direction: column;
+gap: 18px;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+padding: 12px;
+border-radius: 8px;
+border: none;
+background: rgba(255, 255, 255, 0.1);
+color: white;
+backdrop-filter: blur(4px);
+}
+
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+outline: 2px solid #00eaff;
+}* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial; }
+animation: fade 1.2s ease-in-out forwards;
+}
+
+
+@keyframes fade {
+from { opacity: 0; transform: translateY(40px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+
+.projects-section {
+padding: 60px;
+}
+
+
+.project-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 30px;
+}
+
+
+.project-card {
+background: rgba(255, 255, 255, 0.05);
+border-radius: 12px;
+overflow: hidden;
+padding-bottom: 20px;
+transition: .3s;
+border: 1px solid rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(6px);
+}
+
+
+.project-card img {
+width: 100%;
+}
+
+
+.project-card:hover {
+transform: translateY(-10px) scale(1.02);
+box-shadow: 0 0 15px rgba(0, 216, 255, 0.4);
+}
+
+
+.contact-form {
+width: 320px;
+margin: auto;
+display: flex;
+flex-direction: column;
+gap: 18px;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+padding: 12px;
+border-radius: 8px;
+border: none;
+background: rgba(255, 255, 255, 0.1);
+color: white;
+backdrop-filter: blur(4px);
+}
+
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+outline: 2px solid #00eaff;
+}* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial; }
+animation: fade 1.2s ease-in-out forwards;
+}
+
+
+@keyframes fade {
+from { opacity: 0; transform: translateY(40px); }
+to { opacity: 1; transform: translateY(0); }
+}
+
+
+.projects-section {
+padding: 60px;
+}
+
+
+.project-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 30px;
+}
+
+
+.project-card {
+background: rgba(255, 255, 255, 0.05);
+border-radius: 12px;
+overflow: hidden;
+padding-bottom: 20px;
+transition: .3s;
+border: 1px solid rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(6px);
+}
+
+
+.project-card img {
+width: 100%;
+}
+
+
+.project-card:hover {
+transform: translateY(-10px) scale(1.02);
+box-shadow: 0 0 15px rgba(0, 216, 255, 0.4);
+}
+
+
+.contact-form {
+width: 320px;
+margin: auto;
+display: flex;
+flex-direction: column;
+gap: 18px;
+}
+
+
+.contact-form input,
+.contact-form textarea {
+padding: 12px;
+border-radius: 8px;
+border: none;
+background: rgba(255, 255, 255, 0.1);
+color: white;
+backdrop-filter: blur(4px);
+}
+
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+outline: 2px solid #00eaff;
+}
