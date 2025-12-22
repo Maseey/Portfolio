@@ -1,17 +1,48 @@
-<!DOCTYPE html><html><head><title>Projects</title><link rel="stylesheet" href="style.css"></head>
-<body><header class="navbar"><h2 class="logo">MyPortfolio</h2></header>
-<h1>My Projects</h1>
-<div class="project-grid">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
 
-<div class="project-card" data-category="apex webapp">
-<div class="project-title">CleanWear Laundry App</div>
-<video class="video-preview" controls>
-<source src="assets/videos/cleanwear_demo.mp4">
-</video>
-<div class="screenshots">
-<img src="assets/screenshots/cleanwear1.png">
-</div>
-<div class="description">A full laundry management system built in Oracle Apex.</div>
-</div>
+<body>
+<header>
+    <nav class="navbar">
+        <h2 class="logo">My Portfolio</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-</div></body></html>
+<section class="projects-section fade-in">
+    <h1>My Projects</h1>
+
+    <div class="project-grid">
+        <div class="project-card">
+            <img src="assets/project1.jpg" alt="">
+            <h3>CleanWear Laundry App</h3>
+            <p>A full laundry management system built in Oracle Apex.</p>
+        </div>
+
+        <div class="project-card">
+            <img src="assets/project2.jpg" alt="">
+            <h3>We Apply</h3>
+            <p>An app to insert a student details.</p>
+        </div>
+
+        <div class="project-card">
+            <img src="assets/project3.jpg" alt="">
+            <h3>Buffalo City Metropolitan Municipality</h3>
+            <p>An app making it easier for community citizens to lodge complaints.</p>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
