@@ -59,23 +59,6 @@ font-size: 0.95rem;
 color: #dcdcdc;
 }
 
-/* Hover Effects */
-}
-.filter-btn {
-padding: 10px 20px;
-background: #1e1e1e;
-border: 1px solid #00c8ff;
-border-radius: 8px;
-color: #00c8ff;
-cursor: pointer;
-transition: 0.3s;
-}
-.filter-btn:hover, .filter-btn.active {
-background: #00c8ff;
-color: #000;
-}
-
-
 
 .navbar {
     display: flex;
