@@ -42,49 +42,7 @@ color: #000;
 }
 
 
-/* Dark Mode Toggle */
-.dark-toggle {
-position: fixed;
-top: 20px;
-right: 20px;
-width: 50px;
-height: 25px;
-background: #222;
-border-radius: 25px;
-cursor: pointer;
-border: 2px solid #00c8ff;
-}
-.dark-toggle::after {
-content: '';
-width: 20px;
-height: 20px;
-background: #00c8ff;
-border-radius: 50%;
-position: absolute;
-top: 50%;
-left: 3px;
-transform: translateY(-50%);
-transition: 0.3s;
-}
-.dark-mode .dark-toggle::after {
-left: 25px;
-}
 
-
-.dark-mode body,
-.dark-mode .project-card,
-.dark-mode .filters,
-.dark-mode .filter-btn {
-background: #0a0a0a;
-color: #fff;
-}
-.dark-mode .filter-btn {
-border-color: #fff;
-}
-.dark-mode .filter-btn.active {
-background: #fff;
-color: #000;
-}
         <style>
 </head>
 
