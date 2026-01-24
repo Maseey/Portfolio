@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio | Home</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+<nav class="navbar">
+<h2 class="logo">MyPortfolio</h2>
+<ul>
+<li><a class="active" href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+<section class="hero fade-in">
+<img src="assets/profile.jpg" class="profile-img" alt="">
+<h1>Hello, I'm <span class="accent">Masimthembe</span></h1>
+<p>Application Developer • Web Developer • Software Enthusiast</p>
+<a href="projects.html" class="btn">View My Work</a>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
